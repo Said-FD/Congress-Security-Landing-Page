@@ -26,7 +26,7 @@ table {
 /* -------------------------------------------------------------------------- */
 html {font-size: 62.5%;}
 header, footer {padding: 0 17%;}
-section {padding: 0 28%;}
+section, .banner_main, .personnel_close {padding: 0 28%;}
 /* ---------------------------------------------------------------------- */
 body {
 	width: 100%;
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: left;
 	font-weight: bold;
 }
-h1 {font-size: 3rem;}
+h1, h2 {font-size: 3rem;}
 p {
 	padding-top: 4rem;
 	font-family: Merriweather, serif;
@@ -181,7 +181,7 @@ video {
 @media only screen and (max-width: 1224px) {
 	html {font-size: 60%;}
 	header, footer {padding: 0 13%;}
-	section {padding: 0 20%;}
+	section, .banner_main, .personnel_close {padding: 0 20%;}
 	.banner_main {height: 40rem;}
 	.cities p {padding-left: 20%;}
 	.cities_flex {padding: 5rem 13% 7rem;}
@@ -192,7 +192,7 @@ video {
 @media only screen and (max-width: 768px) {
 	html {font-size: 55%;}
 	header, footer {padding: 0 5%;}
-	section {padding: 0 10%;}
+	section, .banner_main, .personnel_close {padding: 0 10%;}
 	.banner_main {height: 35rem;}
 	.cities p {padding-left: 10%;}
 	.cities_flex {padding: 5rem 5% 7rem;}
@@ -202,9 +202,10 @@ video {
 /* All Screens from 480px to 600px ---------- */
 @media only screen and (max-width: 600px) {
 	html {font-size: 50%;}
-	h1 {text-align: center;}
+	h1 {text-align: right;}
+	h2 {text-align: center;}
 	header, footer {padding: 0 3%;}
-	section {padding: 0 6%;}
+	section, .banner_main, .personnel_close {padding: 0 6%;}
 	.banner_main {height: 30rem;}
 	.cities p {padding-left: 6%;}
 	.cities_flex {padding: 5rem 3% 7rem;}
