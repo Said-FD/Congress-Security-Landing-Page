@@ -1,0 +1,492 @@
+/* Reset Styles */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+}
+ol, ul {list-style: none;}
+a {text-decoration: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Reset END */
+
+/* General Styles */
+/* ---------------------------------------------------------------------------- */
+/* Just change this props in media queries for different screen sizes. Win! :) */
+/* -------------------------------------------------------------------------- */
+html {font-size: 62.5%;}
+header, footer {padding: 0 17%;}
+section, .banner_main, .personnel_close {padding: 0 28%;}
+/* ---------------------------------------------------------------------- */
+body {
+	width: 100%;
+	max-width: 3072px;
+	font-family: Arial, sans-serif;
+	font-size: 1.8rem;
+	line-height: 1.4;
+}
+h1 {
+    font-family: Merriweather, serif;
+    font-weight: 700;
+}
+h1, h2 {font-size: 3rem;}
+p {
+	padding-top: 4rem;
+	font-family: Merriweather, serif;
+	font-weight: 300;
+}
+nav a {
+	color: #000;
+	cursor: pointer;
+}
+[class$='_flex'] {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+/* Main Header Styles */
+.header_main {
+	padding-top: 2.4rem;
+	padding-bottom: 1.8rem;
+}
+.header_name {width: 50%;}
+.header_contact {width: 50%;}
+.location_flex span {
+    font-size: 1.2rem;
+    color: #848484;
+}
+.header_contact {
+    padding-top: 1rem;
+    text-align: right;
+}
+.header_contact strong {
+    font-size: 2.1rem;
+    color: #000;
+}
+.header_contact a {color: #000;}
+.menu_main_flex {
+	padding-top: 5rem;
+	font-size: 1.6rem;
+}
+.menu_item:last-child {display: none;}
+
+/* 1-st Section - Main Banner */
+.banner_main {
+	width: 100%;
+	height: 45rem;
+	background: #c7c7c7 url('img/banners/security-guard-sepia_2x.jpg') no-repeat center center;
+	background-size: cover;
+}
+.banner_main img {
+	position: relative;
+	top: -50%;
+	transform: translate(0,85%);
+	display: block;
+	margin: 0 auto;
+	height: 75%;
+}
+
+/* 2-nd Section - About Us */
+#about-us {padding-top: 10rem;}
+
+/* Cities Figure */
+.cities p {padding-left: 28%;}
+.cities_flex {
+	padding: 5rem 17% 7rem;
+	text-align: center;
+}
+.city {padding: 1.5rem 1rem;}
+
+/* 3-rd Section - Service */
+#service {
+	padding-top: 9rem;
+	padding-bottom: 8.5rem;
+	background: #f1f1f1;
+}
+.service_item {position: relative;}
+.service_item p::before {
+	content: '';
+	position: absolute;
+	top: 5rem;
+	left: -3rem;
+	width: 4px;
+	height: 4px;
+	border-radius: 50%;	
+	background: #000;
+}
+
+/* 4-th Section - Personnel */
+#personnel {padding-top: 9rem;}
+.personnel_close {padding-bottom: 4.4rem;}
+
+/* Video Slick Slider Figure */
+.video_slider_wrapper {
+	width: 100%;
+	margin-top: 3.6rem;
+	padding: 0 17%;
+	background: #fff;
+}
+video {
+	width: 100%;
+	height: auto;
+}
+
+/* 5-th Section - Equipment */
+#equipment {
+	padding-top: 9rem;
+	padding-bottom: 9rem;
+}
+.equipment_flex {padding-top: 2.5rem;}
+.equipment_item {
+	width: 49.9%;
+	padding: 2rem 1rem;
+	text-align: center;
+}
+
+/* 6-th Section - Red Zone */
+#red-zone {
+	padding-top: 6rem;
+	padding-bottom: 8.5rem;
+	color: #fff;
+	background: #696e6d;
+}
+
+/* Last 7-th Section - Gallery */
+#gallery {display: none;}
+
+/* Main Footer Styles */
+.footer_main_flex {
+	padding-top: 4rem;
+	padding-bottom: 7rem;
+    font-size: 1.4rem;
+}
+.footer_contact {padding-top: 4rem;}
+.prop, .value {
+    display: inline-block;
+    vertical-align: top;
+}
+.prop {
+    width: 10rem;
+    color: #848484;
+}
+.contact_email {padding: 2.5rem 0;}
+.contact_email a {
+    text-decoration: underline;
+    color: #2282ed;
+}
+.footer_name h3 {
+    padding: 3.2rem 0 0.5rem;
+    font-family: Merriweather, serif;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+.footer_name span {color: #848484;}
+
+/* Media Queries ---------------------------- */
+
+/* All Screens from 1920px ------------------ */
+@media only screen and (min-width: 1919px) {
+	html {font-size: 75%;}
+}
+
+/* All Screens from 1224px to 1920px are okay */
+
+/* All Screens from 768px to 1224px --------- */
+@media only screen and (max-width: 1224px) {
+	html {font-size: 60%;}
+	header, footer, .video_slider_wrapper {padding: 0 13%;}
+	section, .banner_main {padding: 0 20%;}
+    .personnel_close {padding: 0 20% 2rem;}
+	.banner_main {height: 40rem;}
+	.cities p {padding-left: 20%;}
+	.cities_flex {padding: 5rem 13% 7rem;}
+}
+
+@media only screen and (max-width: 890px) {
+    .header_name h1 {font-size: 2.6rem;}
+    .header_contact strong {font-size: 1.7rem;}
+}
+
+/* All Screens from 600px to 768px ---------- */
+@media only screen and (max-width: 768px) {
+	html {font-size: 55%;}
+	header, footer, .video_slider_wrapper {padding: 0 5%;}
+    p {padding-top: 2.5rem;}
+	section, .banner_main, .personnel_close {padding: 0 10%;}
+	.banner_main {height: 35rem;}
+    #about-us, #personnel {padding-top: 5rem;}
+	.cities p {padding-left: 10%;}
+    .cities_flex {padding: 3rem 5% 4rem;}
+    #service, #red-zone {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .service_item p::before {display: none;}
+    .personnel_close {padding-bottom: 3rem;}
+    #equipment {
+        padding-top: 7rem;
+        padding-bottom: 3rem;
+    }
+    .footer_main_flex {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+}
+
+/* All Screens from 480px to 600px ---------- */
+@media only screen and (max-width: 600px) {
+	html {font-size: 50%;}
+	h2 {text-align: center;}
+	header, footer {padding: 0 3%;}
+    p {padding-top: 2rem;}
+	section, .banner_main, .personnel_close {padding: 0 6%;}
+	.banner_main {height: 30rem;}
+	.cities p {padding-left: 6%;}
+	.cities_flex {padding: 3rem 2% 4rem;}
+}
+
+@media only screen and (max-width: 520px) {
+    .location_flex {flex-flow: column nowrap;}
+    .header_name, .header_contact {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* All Screens to 480px --------------------- */
+@media only screen and (max-width: 480px) {
+	.menu_main_flex {
+		justify-content: center;
+		padding-top: 3rem;
+	}
+	.menu_item {padding: 1rem;}
+	.banner_main {height: 25rem;}
+    .cities_flex {
+        justify-content: space-around;
+        padding: 1rem 2% 3rem;
+    }
+	.city img {display: none;}
+    .footer_main_flex {
+        justify-content: center;
+        padding-top: 0;
+        padding-bottom: 2rem;
+    }
+    .contact_email {padding: 1.5rem 0;}
+}
+
+/* --------- Slick Slider Styles ------------ */
+.slick-slider{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus{outline: none;}
+.slick-list.dragging{
+    cursor: pointer;
+    cursor: hand;
+}
+.slick-slider .slick-track,
+.slick-slider .slick-list{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after{
+    display: table;
+    content: '';
+}
+.slick-track:after{clear: both;}
+.slick-loading .slick-track{visibility: hidden;}
+.slick-slide{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide{float: right;}
+.slick-slide img{display: block;}
+.slick-slide.slick-loading img{display: none;}
+.slick-slide.dragging img{pointer-events: none;}
+.slick-initialized .slick-slide{display: block;}
+.slick-loading .slick-slide{visibility: hidden;}
+.slick-vertical .slick-slide{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {display: none;}
+
+
+/* -------------------- Slick Slider Theme Styles ---------------------------------------------- */
+@charset 'UTF-8';
+
+/* Slider */
+.slick-loading .slick-list {background: #fff url('img/ajax-loader.gif') center center no-repeat;}
+
+/* Icons */
+@font-face {
+    font-family: 'slick';
+    font-weight: normal;
+    font-style: normal;
+    src: url('slick/fonts/slick.eot');
+    src: url('slick/fonts/slick.eot?#iefix') format('embedded-opentype'), url('slick/fonts/slick.woff') format('woff'), url('slick/fonts/slick.ttf') format('truetype'), url('slick/fonts/slick.svg#slick') format('svg');
+}
+
+/* Arrows */
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover, .slick-prev:focus,
+.slick-next:hover, .slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {opacity: 1;}
+.slick-prev.slick-disabled:before,
+.slick-next.slick-disabled:before {opacity: .25;}
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 30px;
+    line-height: 1;
+    opacity: .75;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-prev {left: -6%;}
+[dir='rtl'] .slick-prev {
+    right: -25px;
+    left: auto;
+}
+.slick-prev:before {content: '←';}
+[dir='rtl'] .slick-prev:before {content: '→';}
+.slick-next {right: -5%;}
+[dir='rtl'] .slick-next {
+    right: auto;
+    left: -25px;
+}
+.slick-next:before {content: '→';}
+[dir='rtl'] .slick-next:before {content: '←';}
+
+/* Dots */
+.slick-dotted.slick-slider {margin-bottom: 30px;}
+.slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+.slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+}
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.slick-dots li button:hover,
+.slick-dots li button:focus {outline: none;}
+.slick-dots li button:hover:before,
+.slick-dots li button:focus:before {opacity: 1;}
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: black;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .slick-prev, [dir='rtl'] .slick-prev,
+    .slick-prev:before, [dir='rtl'] .slick-prev:before,
+    .slick-next, [dir='rtl'] .slick-next,
+    .slick-next:before, [dir='rtl'] .slick-next:before {display: none;}
+}
