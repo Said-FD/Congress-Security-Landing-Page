@@ -12,9 +12,12 @@ $(document).ready(function(){
 	/* Slick Slider Initialization */
 	$('.video_slider').slick({
 		dots: true,
-		infinite: true,
-		slidesToShow: 1,
-		slidesToScroll: 1
+		responsive: [{
+			breakpoint: 769,
+			settings: {
+				arrows: false
+			}
+		}]
 	});
 
 }); /*-------- Ready End ---------*/
