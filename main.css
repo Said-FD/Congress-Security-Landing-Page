@@ -81,13 +81,12 @@ nav a {
 .banner_main {
 	width: 100%;
 	height: 45rem;
-	background: #c7c7c7 url('img/banners/security-guard-sepia_2x.jpg') no-repeat center center;
+	background: #c7c7c7 url('img/banners/trainings_2x.jpg') no-repeat center center;
 	background-size: cover;
 }
 .banner_main img {
 	position: relative;
-	top: -50%;
-	transform: translate(0,85%);
+	top: 15%;
 	display: block;
 	margin: 0 auto;
 	height: 75%;
@@ -206,7 +205,7 @@ video {
     .personnel_close {padding: 0 20% 2rem;}
 	.banner_main {
         height: 40rem;
-        background: #c7c7c7 url('img/banners/security-guard-sepia_1x.jpg') no-repeat center center;
+        background: #c7c7c7 url('img/banners/trainings_1x.jpg') no-repeat center center;
 		background-size: cover;
     }
 	.cities p {padding-left: 20%;}
@@ -253,7 +252,7 @@ video {
 	section, .banner_main, .personnel_close {padding: 0 6%;}
 	.banner_main {
 		height: 30rem;
-		background: #c7c7c7 url('img/banners/security-guard-sepia_0.5x.jpg') no-repeat center center;
+		background: #c7c7c7 url('img/banners/trainings_0.5x.jpg') no-repeat center center;
 		background-size: cover;
 	}
 	.cities p {padding-left: 6%;}
