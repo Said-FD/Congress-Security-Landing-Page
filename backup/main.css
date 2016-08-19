@@ -1,3 +1,6 @@
+/* Fonts */
+@import url(//fonts.googleapis.com/css?family=Merriweather:300,700&subset=cyrillic);
+
 /* Reset Styles */
 * {
 	margin: 0;
@@ -356,7 +359,7 @@ video {
 .slick-arrow.slick-hidden {display: none;}
 
 
-/* -------------------- Slick Slider Theme Styles ---------------------------------------------- */
+/* -------------------- Slick Slider Theme Styles ------------------------------------------- */
 @charset 'UTF-8';
 
 /* Slider */
