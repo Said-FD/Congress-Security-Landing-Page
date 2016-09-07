@@ -13,7 +13,7 @@ $(document).ready(function(){
 	$('.video_slider').slick({
 		dots: true,
 		responsive: [{
-			breakpoint: 769,
+			breakpoint: 768,
 			settings: {
 				arrows: false
 			}
