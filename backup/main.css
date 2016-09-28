@@ -26,7 +26,6 @@
 }
 
 
-
 /* Reset Styles */
 * {
 	margin: 0;
@@ -55,9 +54,9 @@ table {
 
 /* General Styles */
 
-/* ---------------------------------------------------------------------------- */
-/* Just change this props in media queries for different screen sizes. Win! :) */
-/* -------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------- */
+/* Just change this props in media queries for different screen sizes */
+/* ----------------------------------------------------------------- */
 
 html {
 	font-size: 62.5%;
@@ -73,7 +72,7 @@ section,
 	padding: 0 28%;
 }
 
-/* ---------------------------------------------------------- */
+/* -------------------------------------------------- */
 
 body {
 	width: 100%;
@@ -317,10 +316,10 @@ video {
 
 
 
-/* Media Queries ---------------------------- */
+/* Media Queries ------------------------------ */
 
 
-/* All Screens from 1920px ------------------ */
+/* All Screens from 1920px -------------------- */
 @media only screen and (min-width: 1920px) {
 
 	html {
@@ -335,7 +334,7 @@ video {
 }
 
 
-/* All Screens from 1224px to 1920px are okay */
+/* All Screens from 1224px to 1920px are okay - */
 
 
 /* All Screens from 768px to 1224px ----------- */
@@ -391,7 +390,7 @@ video {
 }
 
 
-/* All Screens from 600px to 768px ---------- */
+/* All Screens from 600px to 768px ------------ */
 @media only screen and (max-width: 768px) {
 
 	html {
@@ -464,7 +463,7 @@ video {
 }
 
 
-/* All Screens from 480px to 600px ---------- */
+/* All Screens from 480px to 600px ------------ */
 @media only screen and (max-width: 600px) {
 
 	html {
@@ -526,7 +525,7 @@ video {
 }
 
 
-/* All Screens to 480px --------------------- */
+/* All Screens up to 480px -------------------- */
 @media only screen and (max-width: 480px) {
 
 	.menu_main_flex {
@@ -568,7 +567,7 @@ video {
 }
 
 
-/* --------- Slick Slider Styles ------------ */
+/* --------- Slick Slider Styles -------------- */
 .slick-slider {
   position: relative;
   display: block;
@@ -673,7 +672,7 @@ video {
 }
 
 
-/* -------------------- Slick Slider Theme Styles ------------------------------------------- */
+/* -------- Slick Slider Theme Styles --------- */
 
 /* Slider */
 .slick-loading .slick-list {

@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 	/* Anchor Smooth Scroll */
-	$('a[href^="#"]').click(function(){
+	$('.menu_main_flex a').click(function(){
 
 		var target = $(this).attr('href');
 
