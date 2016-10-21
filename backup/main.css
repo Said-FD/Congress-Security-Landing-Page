@@ -1,12 +1,12 @@
 /* Font Family: Merriweather Light */
 @font-face {
 	font-family: 'MerriweatherLight';
-	src: url('fonts/MerriweatherLight/MerriweatherLight.eot');
-	src: url('fonts/MerriweatherLight/MerriweatherLight.eot#iefix') format('embedded-opentype'),
-	url('fonts/MerriweatherLight/MerriweatherLight.woff2') format('woff2'),
-	url('fonts/MerriweatherLight/MerriweatherLight.woff') format('woff'),
-	url('fonts/MerriweatherLight/MerriweatherLight.ttf') format('truetype'),
-	url('fonts/MerriweatherLight/MerriweatherLight.svg#MerriweatherLight') format('svg');
+	src: url('../fonts/MerriweatherLight/MerriweatherLight.eot');
+	src: url('../fonts/MerriweatherLight/MerriweatherLight.eot#iefix') format('embedded-opentype'),
+	url('../fonts/MerriweatherLight/MerriweatherLight.woff2') format('woff2'),
+	url('../fonts/MerriweatherLight/MerriweatherLight.woff') format('woff'),
+	url('../fonts/MerriweatherLight/MerriweatherLight.ttf') format('truetype'),
+	url('../fonts/MerriweatherLight/MerriweatherLight.svg#MerriweatherLight') format('svg');
 	font-style: normal;
 	font-weight: normal;
 }
@@ -15,12 +15,12 @@
 /* Font Family: Merriweather Bold */
 @font-face {
 	font-family: 'MerriweatherBold';
-	src: url('fonts/MerriweatherBold/MerriweatherBold.eot');
-	src: url('fonts/MerriweatherBold/MerriweatherBold.eot#iefix') format('embedded-opentype'),
-	url('fonts/MerriweatherBold/MerriweatherBold.woff2') format('woff2'),
-	url('fonts/MerriweatherBold/MerriweatherBold.woff') format('woff'),
-	url('fonts/MerriweatherBold/MerriweatherBold.ttf') format('truetype'),
-	url('fonts/MerriweatherBold/MerriweatherBold.svg#MerriweatherBold') format('svg');
+	src: url('../fonts/MerriweatherBold/MerriweatherBold.eot');
+	src: url('../fonts/MerriweatherBold/MerriweatherBold.eot#iefix') format('embedded-opentype'),
+	url('../fonts/MerriweatherBold/MerriweatherBold.woff2') format('woff2'),
+	url('../fonts/MerriweatherBold/MerriweatherBold.woff') format('woff'),
+	url('../fonts/MerriweatherBold/MerriweatherBold.ttf') format('truetype'),
+	url('../fonts/MerriweatherBold/MerriweatherBold.svg#MerriweatherBold') format('svg');
 	font-style: normal;
 	font-weight: normal;
 }
@@ -53,7 +53,6 @@ table {
 
 
 /* General Styles */
-
 /* ------------------------------------------------------------------- */
 /* Just change this props in media queries for different screen sizes */
 /* ----------------------------------------------------------------- */
@@ -110,6 +109,37 @@ nav a {
 	justify-content: space-between;
 }
 
+/* Flexbox Backup for IE9+ */
+.no-flexbox [class$='_flex'] {
+	margin: 0 auto;
+}
+
+.no-flexbox [class$='_flex'] > * {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.no-flexbox [class$='_flex'] .menu_item {
+	width: 20%;
+}
+
+.no-flexbox [class$='_flex'] .city {
+	width: 25%;
+}
+
+.no-flexbox [class$='_flex'] .footer_contact {
+	text-align: left;
+}
+
+.no-flexbox [class$='_flex']::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+/* End Flexbox Backup */
+
 
 /* Main Header Styles */
 .header_main {
@@ -159,7 +189,7 @@ main .banner_main {
 
 .banner_main {
 	height: 45rem;
-	background: #c7c7c7 url('img/banners/trainings_1x.jpg') no-repeat center;
+	background: #c7c7c7 url('../img/banners/trainings_1x.jpg') no-repeat center;
 }
 
 .banner_main img {
@@ -328,7 +358,7 @@ video {
 
 	.banner_main {
 		height: 50rem;
-		background: #c7c7c7 url('img/banners/trainings_2x.jpg') no-repeat center;
+		background: #c7c7c7 url('../img/banners/trainings_2x.jpg') no-repeat center;
 	}
 
 }
@@ -357,7 +387,7 @@ video {
 
 	.banner_main {
 		height: 40rem;
-		background: #c7c7c7 url('img/banners/trainings_0.5x.jpg') no-repeat center;
+		background: #c7c7c7 url('../img/banners/trainings_0.5x.jpg') no-repeat center;
 	}
 
 	.cities p {
@@ -414,7 +444,7 @@ video {
 
 	.banner_main {
 		height: 35rem;
-		background: #c7c7c7 url('img/banners/trainings_0.25x.jpg') no-repeat center;
+		background: #c7c7c7 url('../img/banners/trainings_0.25x.jpg') no-repeat center;
 	}
 
 	#about-us {
@@ -676,7 +706,7 @@ video {
 
 /* Slider */
 .slick-loading .slick-list {
-  background: #fff url('img/ajax-loader.gif') center center no-repeat;
+  background: #fff url('../img/ajax-loader.gif') center center no-repeat;
 }
 
 /* Icons */
@@ -684,11 +714,11 @@ video {
   font-family: 'slick';
   font-weight: normal;
   font-style: normal;
-  src: url('fonts/slick/slick.eot');
-  src: url('fonts/slick/slick.eot?#iefix') format('embedded-opentype'),
-  url('fonts/slick/slick.woff') format('woff'),
-  url('fonts/slick/slick.ttf') format('truetype'),
-  url('fonts/slick/slick.svg#slick') format('svg');
+  src: url('../fonts/slick/slick.eot');
+  src: url('../fonts/slick/slick.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/slick/slick.woff') format('woff'),
+  url('../fonts/slick/slick.ttf') format('truetype'),
+  url('../fonts/slick/slick.svg#slick') format('svg');
 }
 
 /* Arrows */
