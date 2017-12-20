@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'MerriweatherLight';
-    src: url('fonts/MerriweatherLight.eot');
-    src: url('fonts/MerriweatherLight.eot') format('embedded-opentype'),
-         url('fonts/MerriweatherLight.woff2') format('woff2'),
-         url('fonts/MerriweatherLight.woff') format('woff'),
-         url('fonts/MerriweatherLight.ttf') format('truetype'),
-         url('fonts/MerriweatherLight.svg#MerriweatherLight') format('svg');
-}
