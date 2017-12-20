@@ -1,0 +1,24 @@
+
+
+
+/* TEAM */
+
+Designer: Artem Shykov
+Developer: Maxim Konoval
+Location: Kyiv, Ukraine
+
+
+
+/* THANKS */
+
+Artem Shykov
+
+
+
+/* SITE */
+
+Last update: 2017/12/20
+Created: 2016/07/11
+Standards: HTML5, CSS3
+Components: jQuery
+Language: Ru
