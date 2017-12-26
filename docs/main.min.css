@@ -180,19 +180,6 @@ main .banner_main {
   padding-left: 28%
 }
 
-.video_wrapper {
-  width: 100%;
-  margin-top: 3.6rem;
-  padding: 0 17%;
-  background: #333
-}
-
-video {
-  display: block;
-  width: 100%;
-  height: auto
-}
-
 #equipment {
   padding-top: 9rem;
   padding-bottom: 9rem;
@@ -207,17 +194,6 @@ video {
   width: 50%;
   padding: 2rem 1rem;
   text-align: center
-}
-
-#red-zone {
-  padding-top: 6rem;
-  padding-bottom: 8.5rem;
-  color: #fff;
-  background: #696e6d
-}
-
-#gallery {
-  display: none
 }
 
 .footer_main_flex {
@@ -274,7 +250,7 @@ video {
   html {
     font-size: 60%
   }
-  .video_wrapper, footer, header {
+  footer, header {
     padding: 0 13%
   }
   .banner_main, section {
@@ -309,7 +285,7 @@ video {
   html {
     font-size: 55%
   }
-  .video_wrapper, footer, header {
+  footer, header {
     padding: 0 5%
   }
   p {
@@ -331,23 +307,20 @@ video {
   .cities_flex {
     padding: 3rem 5% 4rem
   }
-  #red-zone, #service {
+  #service,
+  #personnel {
     padding-top: 5rem;
     padding-bottom: 5rem
   }
   .service_item p::before {
     display: none
   }
-  #personnel {
-    padding-top: 5rem;
-    padding-bottom: 2rem
-  }
   #personnel h2, #personnel p {
     padding-right: 10%;
     padding-left: 10%
   }
   #equipment {
-    padding-top: 7rem;
+    padding-top: 5rem;
     padding-bottom: 3rem
   }
   .footer_main_flex {
@@ -363,7 +336,7 @@ video {
   h2 {
     text-align: center
   }
-  .video_wrapper, footer, header {
+  footer, header {
     padding: 0 3%
   }
   p {
@@ -422,11 +395,5 @@ video {
   }
   .contact_email {
     padding: 1.5rem 0
-  }
-}
-
-@media only screen and (max-width:321px) {
-  .video_wrapper {
-    padding: 0
   }
 }
