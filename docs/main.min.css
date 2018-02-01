@@ -180,6 +180,19 @@ main .banner_main {
   background: #000
 }
 
+.sub_service_item p {
+  margin-left: 4rem;
+  padding-top: 2rem;
+}
+
+.sub_service_item p::before {
+  content: '–';
+  position: absolute;
+  top: 2rem;
+  left: 0rem;
+  width: 0px;
+}
+
 #personnel {
   padding: 9rem 0
 }
@@ -346,6 +359,9 @@ main .banner_main {
   }
   .service_item p::before {
     display: none
+  }
+  .sub_service_item p::before {
+    display: block
   }
   #personnel h2, #personnel p {
     padding-right: 10%;
