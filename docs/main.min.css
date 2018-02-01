@@ -44,7 +44,7 @@ html {
   font-size: 62.5%
 }
 
-footer, header {
+header, footer {
   padding: 0 17%
 }
 
@@ -54,9 +54,8 @@ footer, header {
 
 body {
   width: 100%;
-  max-width: 3072px;
   min-width: 320px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, serif;
   font-size: 1.8rem;
   line-height: 1.4
 }
@@ -73,7 +72,8 @@ h1, h2 {
 p {
   padding-top: 4rem;
   font-family: MerriweatherLight, serif;
-  font-weight: 300
+  font-weight: 300;
+  line-height: 1.6
 }
 
 nav a {
@@ -134,7 +134,7 @@ main .banner_main {
   top: 15%;
   display: block;
   height: 75%;
-  margin: 0 auto;
+  margin: 0 auto
 }
 
 #about-us {
@@ -147,16 +147,16 @@ main .banner_main {
 
 .cities_flex {
   padding: 5rem 17% 2rem;
-  text-align: center;
+  text-align: center
 }
 
 .cities_flex:last-of-type {
-  padding-bottom: 7rem;
+  padding-bottom: 7rem
 }
 
 .cities_flex + .cities_flex {
 	justify-content: space-around;
-  padding-top: 0;
+  padding-top: 0
 }
 
 .city {
@@ -249,9 +249,20 @@ main .banner_main {
   html {
     font-size: 75%
   }
+  header, footer, figure {
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0;
+    padding-left: 0
+  }
   .banner_main {
     height: 50rem;
     background: url(img/banners/trainings_2x.jpg) center no-repeat #c7c7c7
+  }
+  .cities p {
+    padding-left: 0;
+    text-align: center
   }
 }
 
@@ -273,13 +284,13 @@ main .banner_main {
     padding-left: 20%;
   }
 	.cities_flex {
-		padding: 5rem 13% 2rem;
+		padding: 5rem 13% 2rem
 	}
 	.cities_flex:last-of-type {
-		padding-bottom: 7rem;
+		padding-bottom: 7rem
 	}
 	.cities_flex + .cities_flex {
-		padding-top: 0;
+		padding-top: 0
 	}
   #personnel h2, #personnel p {
     padding-right: 20%;
@@ -320,13 +331,13 @@ main .banner_main {
     padding-left: 10%
   }
 	.cities_flex {
-		padding: 3rem 5% 2rem;
+		padding: 3rem 5% 2rem
 	}
 	.cities_flex:last-of-type {
-		padding-bottom: 4rem;
+		padding-bottom: 4rem
 	}
 	.cities_flex + .cities_flex {
-		padding-top: 0;
+		padding-top: 0
 	}
   #service,
   #personnel {
@@ -373,13 +384,13 @@ main .banner_main {
     padding-left: 6%
   }
 	.cities_flex {
-		padding: 3rem 2% 1rem;
+		padding: 3rem 2% 1rem
 	}
 	.cities_flex:last-of-type {
-		padding-bottom: 4rem;
+		padding-bottom: 4rem
 	}
 	.cities_flex + .cities_flex {
-		padding-top: 0;
+		padding-top: 0
 	}
   #personnel h2, #personnel p {
     padding-right: 6%;
@@ -410,13 +421,13 @@ main .banner_main {
   }
 	.cities_flex {
 		justify-content: space-around;
-		padding: 1rem 2% 1rem;
+		padding: 1rem 2% 1rem
 	}
 	.cities_flex:last-of-type {
-		padding-bottom: 3rem;
+		padding-bottom: 3rem
 	}
 	.cities_flex + .cities_flex {
-		padding-top: 0;
+		padding-top: 0
   }
   .city img,
   .city svg {
