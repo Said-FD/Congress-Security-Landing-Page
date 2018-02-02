@@ -17,7 +17,7 @@ Artem Shykov
 
 /* SITE */
 
-Last update: 2017/12/20
+Last update: 2018/02/02
 Created: 2016/07/11
 Standards: HTML5, CSS3
 Components: jQuery
