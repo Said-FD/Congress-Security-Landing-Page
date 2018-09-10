@@ -12,13 +12,14 @@ Location: Kyiv, Ukraine
 /* THANKS */
 
 Artem Shykov
+Ystreb
 
 
 
 /* SITE */
 
-Last update: 2018/02/02
-Created: 2016/07/11
+Last update: 09/11/2018
+Created: 07/11/2016
 Standards: HTML5, CSS3
-Components: jQuery
+Components: van11y-carrousel
 Language: Ru
