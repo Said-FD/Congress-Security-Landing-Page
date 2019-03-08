@@ -1,3 +1,3 @@
 # Congress-Security-Landing-Page
 
-This project already deployed and works - https://congress-security.com
+This project already deployed - https://congress-security.com
