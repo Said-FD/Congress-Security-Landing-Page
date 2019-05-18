@@ -18,8 +18,8 @@ Ystreb
 
 /* SITE */
 
-Last update: 09/03/2019
-Created: 07/11/2016
+Last update: 18/05/2019
+Created: 11/07/2016
 Standards: HTML5, CSS3
 Components: van11y-carrousel
 Language: Ru
